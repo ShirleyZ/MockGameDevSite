@@ -1,0 +1,51 @@
+/* CSS page for the
+   Mock Game Dev Company website
+   
+ */
+ 
+ .mgd-game-icon {
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px 0px;
+ }
+ 
+ .mgd-game-icon-hoverover {
+  margin-top: -160px;
+  opacity: 0;
+  z-index: 20;
+ }
+ 
+ .mgd-game-icon-hoverover:hover {
+  opacity: 1;
+ }
+ 
+ .mgd-about-photo {
+  height: 250px;
+  width: 150px;
+  border: 1px solid black;
+  margin-right: 15px;
+ }
+ 
+ #footer {
+  bottom: 0px;
+ }
+ 
+ .footer-spacer {
+  height: 50px;
+ }
+ 
+ .footer-note {
+  margin: 30px auto 20px auto;
+  text-align: centre;
+ }
+ 
+ .footer-note > ul {
+  list-style: none;
+  display: inline;
+ }
+ 
+ .footer-note > ul > li {
+  float: left;
+  padding-right: 15px;
+ }

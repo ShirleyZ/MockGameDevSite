@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mock Game Dev Company</title>
+    <script src="jquery-1.11.1.min.js"></script>
+    <!-- script src="MUD.js"></script -->
+    <link rel="stylesheet" type="text/css" href="mockGameCSS.css">    
+  </head>
+  <body>
+  </body>
+</html>
