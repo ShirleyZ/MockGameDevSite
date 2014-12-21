@@ -2,50 +2,63 @@
    Mock Game Dev Company website
    
  */
- 
- .mgd-game-icon {
+
+.mgd-game-icon {
   height: 150px;
   border: 1px solid black;
   border-radius: 10px;
   margin: 10px 0px;
- }
- 
- .mgd-game-icon-hoverover {
+}
+
+.mgd-game-icon-hoverover {
   margin-top: -160px;
   opacity: 0;
   z-index: 20;
- }
- 
- .mgd-game-icon-hoverover:hover {
-  opacity: 1;
- }
- 
- .mgd-about-photo {
+  background-color: black;
+  padding: 0px 20px;
+}
+
+.mgd-game-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.mgd-game-icon-hoverover h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.mgd-game-icon-hoverover:hover {
+  opacity: 0.7;
+}
+
+.mgd-about-photo {
   height: 250px;
   width: 150px;
   border: 1px solid black;
   margin-right: 15px;
- }
- 
- #footer {
+}
+
+#footer {
   bottom: 0px;
- }
- 
- .footer-spacer {
+}
+
+.footer-spacer {
   height: 50px;
- }
- 
- .footer-note {
+}
+
+.footer-note {
   margin: 30px auto 20px auto;
   text-align: centre;
- }
- 
- .footer-note > ul {
+}
+
+.footer-note > ul {
   list-style: none;
   display: inline;
- }
- 
- .footer-note > ul > li {
+}
+
+.footer-note > ul > li {
   float: left;
   padding-right: 15px;
- }
+}
